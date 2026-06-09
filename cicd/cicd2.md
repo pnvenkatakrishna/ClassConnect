@@ -5,6 +5,8 @@
     * GitHub is webbased source code store
     * GitHub Actions 🤔
 
+![alt text](Images/image6.png)
+
 
 ###  https and ssh 
 * For secure communication we are going use https. 
