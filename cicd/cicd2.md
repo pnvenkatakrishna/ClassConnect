@@ -44,7 +44,7 @@ ssh <username>@<publicIP>
 
 * webserver has a default document root directory
     * /var/www/html 
-* watch classroom recording for deploying sample webpage. 
+#### watch classroom recording for deploying sample webpage. 
 
 [refer here](https://templatemo.com/tm-622-clearwave#google_vignette) for sampel html page
 
