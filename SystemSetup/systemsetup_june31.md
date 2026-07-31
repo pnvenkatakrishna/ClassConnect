@@ -26,9 +26,11 @@
 - Verb - Noun  pattern commands follow in windows
 `New-item apple.txt`
 	
-- setup exectionpolicy 
-	- open powershell as run adminstrator 
+- **setup exectionpolicy** 
+	- **open powershell; as run adminstrator** 
 		- `Set-ExecutionPolicy Unrestricted`
+		- 
+- To verify the status `Get-ExecutionPolicy` it has to show `unrestricted`  
 
 - To run scripts in mahcine we need setup exection policy
 ![alt text](Images/remotesevers.png)
@@ -40,6 +42,12 @@
 
 [refer here](https://git-scm.com/install/windows)
 
+- To verify 
+```bash
+git --version
+bash --version
+```
+
 - i have prepared [docs](https://github.com/pnvenkatakrishna/devops-cloud-setup-guide/tree/main/00-Prerequisites)  to install the softwares check once. 
 
 
@@ -47,10 +55,13 @@
 - **vscode**
 [refer here ](https://winstall.app/apps/Microsoft.VisualStudioCode)
 
+
+- To verfiy `code --version`
+
 - system level - installing softwares 
 
 * windows tools - winget  (package manager) 
-* winget --version
+* To check the version `winget --version`
 
 these two websites are supporting for windows to get the commands. 
 
@@ -65,14 +76,20 @@ Successfully verified installer hash why it is ?
 	- pip (package manager) comes with python.
   [refer here](https://winstall.app/apps/Python.Python.3.13) 
 
+- To check the version `python --version`
+
+
 - uv (package manager) 
   
   [refer here ](https://winstall.app/apps/astral-sh.uv)
 
+- To verify the version `uv --version`
+
 - project level work check the recording 
-- 
+
 - create folder for your course 
 ![alt text](Images/image.png)
+
 
 ## Version Control system configuration
 - create github account with your mail 
@@ -104,11 +121,18 @@ brew install --cask gcloud-cli
 
 - **aws**
   - [refer here](https://winget.run/pkg/Amazon/AWSCLI) aws cli
+  
+* To check the version `aws --version`
+
 - **azure** 
   -  - [refer here](https://winstall.app/apps/Microsoft.AzureCLI) to install azure cli
-  
+
+* To check the version `az version`
+
 - **gcp** 
   - [refer here](https://winget.run/pkg/Google/CloudSDK) to install gcp cli
+- To check the version `gcloud --version`
+
 
 #### NOTE: 
 - before installing gcp cli 
@@ -117,12 +141,18 @@ brew install --cask gcloud-cli
 
 ![alt text](Images/cloudconnect.png)
  
+
+# Create cloud accounts
+
+
 ### GCP 
 - 300$ for 3 months free plan  2/- 
 - 1000/- rs from india (refundable)
 [refer here](https://cloud.google.com/) to creat google cloud account 
 
 * i have prepared [docs](https://github.com/pnvenkatakrishna/genai-setup-guide/blob/main/Google-Cloud-Setup/00.google-cloud-freetier-creation.md) to create gcp check once.
+
+ 
 
 ## aws 
 - 100$ for 6 months 
