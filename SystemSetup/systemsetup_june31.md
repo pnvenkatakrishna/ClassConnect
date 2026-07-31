@@ -111,6 +111,8 @@ brew install --cask gcloud-cli
 - before installing gcp cli 
   -  set exection policy as unrestriced or remotesigned
 
+
+![alt text](Images/cloudconnect.png)
  
 ### GCP 
 - 300$ for 3 months free plan  2/- 
