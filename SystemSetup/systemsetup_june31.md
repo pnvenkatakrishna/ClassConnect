@@ -30,6 +30,9 @@
 	- open powershell as run adminstrator 
 		- `Set-ExecutionPolicy Unrestricted`
 
+- To run scripts in mahcine we need setup exection policy
+![alt text](Images/remotesevers.png)
+
 ## Development softwares
 
 - git and github 
