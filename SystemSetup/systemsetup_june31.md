@@ -21,6 +21,7 @@
 	- powershell is interpreter
 	- choose default application is terminal
 
+![alt text](Images/windows.png)
 
 - Verb - Noun  pattern commands follow in windows
 `New-item apple.txt`
@@ -38,9 +39,9 @@
 
 - i have prepared [docs](https://github.com/pnvenkatakrishna/devops-cloud-setup-guide/tree/main/00-Prerequisites)  to install the softwares check once. 
 
-![alt text](Images/windows.png)
 
-- vscode
+
+- **vscode**
 [refer here ](https://winstall.app/apps/Microsoft.VisualStudioCode)
 
 - system level - installing softwares 
