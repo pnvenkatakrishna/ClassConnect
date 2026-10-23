@@ -69,7 +69,7 @@ NOTE:
 * Run the command before installing gcp cli
 * open powershell as adminstrator and run `Set-ExecutionPolicy Unrestricted`
 
-
+![cloud accounts image](../Images/oct-1.png)
 ## How to authenticate gcp cli your machine 
 ```bash 
 gcloud init 
